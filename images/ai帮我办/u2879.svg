@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="69px" height="8px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter x="2612px" y="669px" width="69px" height="8px" filterUnits="userSpaceOnUse" id="filter208">
-      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget209">
-      <path d="M 2614 671.5  L 2676 671.5  " stroke-width="1" stroke="#aaaaaa" fill="none" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -2612 -669 )">
-    <use xlink:href="#widget209" filter="url(#filter208)" />
-    <use xlink:href="#widget209" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="8px" height="8px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1 0 0 1 -2706 -1032 )">
+    <path d="M 2710 1032  C 2712.24 1032  2714 1033.76  2714 1036  C 2714 1038.24  2712.24 1040  2710 1040  C 2707.76 1040  2706 1038.24  2706 1036  C 2706 1033.76  2707.76 1032  2710 1032  Z " fill-rule="nonzero" fill="#aaaaaa" stroke="none" />
   </g>
 </svg>
