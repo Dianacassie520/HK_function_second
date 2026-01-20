@@ -49,222 +49,198 @@
     <div id="base" class="">
 
       <!-- Unnamed (矩形) -->
-      <div id="u3938" class="ax_default sticky_2">
-        <div id="u3938_div" class=""></div>
-        <div id="u3938_text" class="text ">
+      <div id="u3941" class="ax_default sticky_2">
+        <div id="u3941_div" class=""></div>
+        <div id="u3941_text" class="text ">
           <p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">1、只在以下阶段开放录入的入口，该文书支持存在多份已完成文书：</span></p><ul><li style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">普通程序：案件登记、立案阶段、调查取证</span></li></ul><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">2、文书状态有（已完成、未完成、已作废）</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">3、文书操作有（修改和作废）</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">一、总体逻辑：</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;color:#000000;">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">、做实时监听，即使不点击保存或提交也需记录填写的信息。</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;color:#000000;">2</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">、从不同入口进入本页面的数据回显原则：</span></p><ul><li style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">点击【地址确认书】进入本页面：见</span><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;color:#000000;">“</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">二、字段规则</span><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;color:#000000;">”</span></li><li style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">在案件办理列表点击上面的未完成状态记录进入本页面：默认展示本文书</span><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;color:#000000;">ID</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">上次填写的信息</span></li></ul><p style="font-size:14px;line-height:24px;"><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;color:#000000;">3</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">、当事人获取最新</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'ArialMT', 'Arial', sans-serif;font-weight:400;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">二、字段规则</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">标题展示XX(当前用户所在区划)市场监督管理局地址送达确认书</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#000000;">1</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">、受送达人</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">默认展示前置文书中最新提交的当事人名称，该当事人名称不可以修改</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#000000;">2</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">、收件信息</span></p><p style="font-size:14px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">（1）送达地址：跳转地址选择</span></p><p style="font-size:14px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">（2）收件人：默认带出当事人的「法人名称」，可以修改，必填，限制10个字符</span></p><p style="font-size:14px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">（3）收件人联系电话：默认带出当事人的「法人联系电话」，可以修改，必填，限制11位</span></p><p style="font-size:14px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">（4）邮政编码：必填，限制6位</span></p><p style="font-size:13px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#000000;">3</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">、备注</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">限制500个字符，非必填，录入页输入即可</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial', sans-serif;font-weight:700;color:#000000;">4</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">、签字（复用执法文书录入样式）</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">非必填</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;"><br></span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#000000;">5、文书下单时间</span></p><p style="font-size:14px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;">精确到年月日，录入页面默认显示当前日，可修改为历史时间</span></p><p style="font-size:14px;line-height:24px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;color:#000000;"><br></span></p>
         </div>
       </div>
 
       <!-- Unnamed (图片) -->
-      <div id="u3939" class="ax_default _图片_">
-        <img id="u3939_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3939.png"/>
-        <div id="u3939_text" class="text " style="display:none; visibility: hidden">
+      <div id="u3942" class="ax_default _图片_">
+        <img id="u3942_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3942.png"/>
+        <div id="u3942_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3940" class="ax_default box_1">
-        <div id="u3940_div" class=""></div>
-        <div id="u3940_text" class="text ">
+      <div id="u3943" class="ax_default box_1">
+        <div id="u3943_div" class=""></div>
+        <div id="u3943_text" class="text ">
           <p><span>收件信息</span></p>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u3941" class="ax_default" data-left="77" data-top="955" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u3944" class="ax_default" data-left="77" data-top="955" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u3942" class="ax_default box_1">
-          <div id="u3942_div" class=""></div>
-          <div id="u3942_text" class="text " style="display:none; visibility: hidden">
+        <div id="u3945" class="ax_default box_1">
+          <div id="u3945_div" class=""></div>
+          <div id="u3945_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u3943" class="ax_default box_1">
-          <div id="u3943_div" class=""></div>
-          <input id="u3943_input" type="text" value="请输入" class="u3943_input" maxlength="18"/>
+        <div id="u3946" class="ax_default box_1">
+          <div id="u3946_div" class=""></div>
+          <input id="u3946_input" type="text" value="请输入" class="u3946_input" maxlength="18"/>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u3944" class="ax_default box_1">
-          <div id="u3944_div" class=""></div>
-          <div id="u3944_text" class="text ">
+        <div id="u3947" class="ax_default box_1">
+          <div id="u3947_div" class=""></div>
+          <div id="u3947_text" class="text ">
             <p><span>收件人</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3945" class="ax_default box_1">
-        <div id="u3945_div" class=""></div>
-        <div id="u3945_text" class="text ">
+      <div id="u3948" class="ax_default box_1">
+        <div id="u3948_div" class=""></div>
+        <div id="u3948_text" class="text ">
           <p><span>送达地址</span></p>
         </div>
       </div>
 
       <!-- Unnamed (形状) -->
-      <div id="u3946" class="ax_default icon">
-        <img id="u3946_img" class="img " src="images/260109线下取号-立案取号/u292.svg"/>
-        <div id="u3946_text" class="text " style="display:none; visibility: hidden">
+      <div id="u3949" class="ax_default icon">
+        <img id="u3949_img" class="img " src="images/260109线下取号-立案取号/u292.svg"/>
+        <div id="u3949_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (文本框) -->
-      <div id="u3947" class="ax_default box_1">
-        <div id="u3947_div" class=""></div>
-        <input id="u3947_input" type="text" value="" class="u3947_input" maxlength="5"/>
+      <div id="u3950" class="ax_default box_1">
+        <div id="u3950_div" class=""></div>
+        <input id="u3950_input" type="text" value="" class="u3950_input" maxlength="5"/>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u3948" class="ax_default" data-left="77" data-top="1005" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u3951" class="ax_default" data-left="77" data-top="1005" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u3949" class="ax_default box_1">
-          <div id="u3949_div" class=""></div>
-          <div id="u3949_text" class="text " style="display:none; visibility: hidden">
+        <div id="u3952" class="ax_default box_1">
+          <div id="u3952_div" class=""></div>
+          <div id="u3952_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u3950" class="ax_default box_1">
-          <div id="u3950_div" class=""></div>
-          <input id="u3950_input" type="text" value="请输入" class="u3950_input" maxlength="18"/>
+        <div id="u3953" class="ax_default box_1">
+          <div id="u3953_div" class=""></div>
+          <input id="u3953_input" type="text" value="请输入" class="u3953_input" maxlength="18"/>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u3951" class="ax_default box_1">
-          <div id="u3951_div" class=""></div>
-          <div id="u3951_text" class="text ">
+        <div id="u3954" class="ax_default box_1">
+          <div id="u3954_div" class=""></div>
+          <div id="u3954_text" class="text ">
             <p><span>联系电话</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u3952" class="ax_default" data-left="77" data-top="1055" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u3955" class="ax_default" data-left="77" data-top="1055" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u3953" class="ax_default box_1">
-          <div id="u3953_div" class=""></div>
-          <div id="u3953_text" class="text " style="display:none; visibility: hidden">
+        <div id="u3956" class="ax_default box_1">
+          <div id="u3956_div" class=""></div>
+          <div id="u3956_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u3954" class="ax_default box_1">
-          <div id="u3954_div" class=""></div>
-          <input id="u3954_input" type="text" value="请输入" class="u3954_input" maxlength="18"/>
+        <div id="u3957" class="ax_default box_1">
+          <div id="u3957_div" class=""></div>
+          <input id="u3957_input" type="text" value="请输入" class="u3957_input" maxlength="18"/>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u3955" class="ax_default box_1">
-          <div id="u3955_div" class=""></div>
-          <div id="u3955_text" class="text ">
+        <div id="u3958" class="ax_default box_1">
+          <div id="u3958_div" class=""></div>
+          <div id="u3958_text" class="text ">
             <p><span>邮政号码</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (图片) -->
-      <div id="u3956" class="ax_default _图片_">
-        <img id="u3956_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3956.png"/>
-        <div id="u3956_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (图片) -->
-      <div id="u3957" class="ax_default _图片_">
-        <img id="u3957_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3957.png"/>
-        <div id="u3957_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (图片) -->
-      <div id="u3958" class="ax_default _图片_">
-        <img id="u3958_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3958.png"/>
-        <div id="u3958_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (矩形) -->
-      <div id="u3959" class="ax_default box_1">
-        <div id="u3959_div" class=""></div>
+      <div id="u3959" class="ax_default _图片_">
+        <img id="u3959_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3959.png"/>
         <div id="u3959_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
-      <!-- Unnamed (矩形) -->
-      <div id="u3960" class="ax_default label">
-        <div id="u3960_div" class=""></div>
-        <div id="u3960_text" class="text ">
-          <p><span>默认选择“是”</span></p>
+      <!-- Unnamed (图片) -->
+      <div id="u3960" class="ax_default _图片_">
+        <img id="u3960_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3960.png"/>
+        <div id="u3960_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
         </div>
       </div>
 
-      <!-- Unnamed (矩形) -->
-      <div id="u3961" class="ax_default label">
-        <div id="u3961_div" class=""></div>
-        <div id="u3961_text" class="text ">
-          <p><span>默认勾选手机号码，填写联系电话</span></p>
+      <!-- Unnamed (图片) -->
+      <div id="u3961" class="ax_default _图片_">
+        <img id="u3961_img" class="img " src="images/地址送达确认-移动-湖南_长沙_海口/u3961.png"/>
+        <div id="u3961_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
       <div id="u3962" class="ax_default box_1">
         <div id="u3962_div" class=""></div>
-        <div id="u3962_text" class="text ">
+        <div id="u3962_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3963" class="ax_default label">
+        <div id="u3963_div" class=""></div>
+        <div id="u3963_text" class="text ">
+          <p><span>默认选择“是”</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3964" class="ax_default label">
+        <div id="u3964_div" class=""></div>
+        <div id="u3964_text" class="text ">
+          <p><span>默认勾选手机号码，填写联系电话</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3965" class="ax_default box_1">
+        <div id="u3965_div" class=""></div>
+        <div id="u3965_text" class="text ">
           <p><span>长沙市市场监督管理局地址送达确认书</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3963" class="ax_default _形状">
-        <div id="u3963_div" class=""></div>
-        <div id="u3963_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (矩形) -->
-      <div id="u3964" class="ax_default _形状">
-        <div id="u3964_div" class=""></div>
-        <div id="u3964_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (矩形) -->
-      <div id="u3965" class="ax_default box_1 disabled">
-        <div id="u3965_div" class="disabled"></div>
-        <div id="u3965_text" class="text ">
-          <p><span>保存</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (矩形) -->
-      <div id="u3966" class="ax_default box_1">
+      <div id="u3966" class="ax_default _形状">
         <div id="u3966_div" class=""></div>
-        <div id="u3966_text" class="text ">
-          <p><span>提交</span></p>
+        <div id="u3966_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3967" class="ax_default box_1 disabled">
-        <div id="u3967_div" class="disabled"></div>
-        <div id="u3967_text" class="text ">
-          <p><span>预览文书</span></p>
+      <div id="u3967" class="ax_default _形状">
+        <div id="u3967_div" class=""></div>
+        <div id="u3967_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
         </div>
       </div>
 
@@ -272,7 +248,7 @@
       <div id="u3968" class="ax_default box_1 disabled">
         <div id="u3968_div" class="disabled"></div>
         <div id="u3968_text" class="text ">
-          <p><span>撤销</span></p>
+          <p><span>保存</span></p>
         </div>
       </div>
 
@@ -280,36 +256,38 @@
       <div id="u3969" class="ax_default box_1">
         <div id="u3969_div" class=""></div>
         <div id="u3969_text" class="text ">
+          <p><span>提交</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3970" class="ax_default box_1 disabled">
+        <div id="u3970_div" class="disabled"></div>
+        <div id="u3970_text" class="text ">
+          <p><span>预览文书</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3971" class="ax_default box_1 disabled">
+        <div id="u3971_div" class="disabled"></div>
+        <div id="u3971_text" class="text ">
+          <p><span>撤销</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3972" class="ax_default box_1">
+        <div id="u3972_div" class=""></div>
+        <div id="u3972_text" class="text ">
           <p><span>受送达人</span></p>
         </div>
       </div>
 
       <!-- 当事人 (动态面板) -->
-      <div id="u3970" class="ax_default" data-label="当事人">
-        <div id="u3970_state0" class="panel_state" data-label="单位" style="">
-          <div id="u3970_state0_content" class="panel_state_content">
-
-            <!-- Unnamed (组合) -->
-            <div id="u3971" class="ax_default" data-left="0" data-top="0" data-width="335" data-height="50" layer-opacity="1">
-
-              <!-- Unnamed (矩形) -->
-              <div id="u3972" class="ax_default box_1">
-                <div id="u3972_div" class=""></div>
-                <div id="u3972_text" class="text " style="display:none; visibility: hidden">
-                  <p></p>
-                </div>
-              </div>
-
-              <!-- Unnamed (文本框) -->
-              <div id="u3973" class="ax_default box_1">
-                <div id="u3973_div" class=""></div>
-                <input id="u3973_input" type="text" value="" class="u3973_input" maxlength="5"/>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="u3970_state1" class="panel_state" data-label="个人" style="visibility: hidden;">
-          <div id="u3970_state1_content" class="panel_state_content">
+      <div id="u3973" class="ax_default" data-label="当事人">
+        <div id="u3973_state0" class="panel_state" data-label="单位" style="">
+          <div id="u3973_state0_content" class="panel_state_content">
 
             <!-- Unnamed (组合) -->
             <div id="u3974" class="ax_default" data-left="0" data-top="0" data-width="335" data-height="50" layer-opacity="1">
@@ -322,70 +300,92 @@
                 </div>
               </div>
 
-              <!-- Unnamed (矩形) -->
+              <!-- Unnamed (文本框) -->
               <div id="u3976" class="ax_default box_1">
                 <div id="u3976_div" class=""></div>
-                <div id="u3976_text" class="text ">
+                <input id="u3976_input" type="text" value="" class="u3976_input" maxlength="5"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u3973_state1" class="panel_state" data-label="个人" style="visibility: hidden;">
+          <div id="u3973_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u3977" class="ax_default" data-left="0" data-top="0" data-width="335" data-height="50" layer-opacity="1">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u3978" class="ax_default box_1">
+                <div id="u3978_div" class=""></div>
+                <div id="u3978_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u3979" class="ax_default box_1">
+                <div id="u3979_div" class=""></div>
+                <div id="u3979_text" class="text ">
                   <p><span>姓名</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (文本框) -->
-              <div id="u3977" class="ax_default box_1">
-                <div id="u3977_div" class=""></div>
-                <input id="u3977_input" type="text" value="" class="u3977_input" maxlength="5"/>
+              <div id="u3980" class="ax_default box_1">
+                <div id="u3980_div" class=""></div>
+                <input id="u3980_input" type="text" value="" class="u3980_input" maxlength="5"/>
               </div>
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u3978" class="ax_default" data-left="0" data-top="97" data-width="335" data-height="50" layer-opacity="1">
+            <div id="u3981" class="ax_default" data-left="0" data-top="97" data-width="335" data-height="50" layer-opacity="1">
 
               <!-- Unnamed (矩形) -->
-              <div id="u3979" class="ax_default box_1">
-                <div id="u3979_div" class=""></div>
-                <div id="u3979_text" class="text " style="display:none; visibility: hidden">
+              <div id="u3982" class="ax_default box_1">
+                <div id="u3982_div" class=""></div>
+                <div id="u3982_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u3980" class="ax_default box_1">
-                <div id="u3980_div" class=""></div>
-                <div id="u3980_text" class="text ">
+              <div id="u3983" class="ax_default box_1">
+                <div id="u3983_div" class=""></div>
+                <div id="u3983_text" class="text ">
                   <p><span>身份证件号码</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (文本框) -->
-              <div id="u3981" class="ax_default box_1">
-                <div id="u3981_div" class=""></div>
-                <input id="u3981_input" type="text" value="" class="u3981_input" maxlength="11"/>
+              <div id="u3984" class="ax_default box_1">
+                <div id="u3984_div" class=""></div>
+                <input id="u3984_input" type="text" value="" class="u3984_input" maxlength="11"/>
               </div>
             </div>
 
             <!-- Unnamed (组合) -->
-            <div id="u3982" class="ax_default" data-left="0" data-top="48" data-width="335" data-height="50" layer-opacity="1">
+            <div id="u3985" class="ax_default" data-left="0" data-top="48" data-width="335" data-height="50" layer-opacity="1">
 
               <!-- Unnamed (矩形) -->
-              <div id="u3983" class="ax_default box_1">
-                <div id="u3983_div" class=""></div>
-                <div id="u3983_text" class="text " style="display:none; visibility: hidden">
+              <div id="u3986" class="ax_default box_1">
+                <div id="u3986_div" class=""></div>
+                <div id="u3986_text" class="text " style="display:none; visibility: hidden">
                   <p></p>
                 </div>
               </div>
 
               <!-- Unnamed (矩形) -->
-              <div id="u3984" class="ax_default box_1">
-                <div id="u3984_div" class=""></div>
-                <div id="u3984_text" class="text ">
+              <div id="u3987" class="ax_default box_1">
+                <div id="u3987_div" class=""></div>
+                <div id="u3987_text" class="text ">
                   <p><span>住址</span></p>
                 </div>
               </div>
 
               <!-- Unnamed (文本框) -->
-              <div id="u3985" class="ax_default box_1">
-                <div id="u3985_div" class=""></div>
-                <input id="u3985_input" type="text" value="" class="u3985_input" maxlength="18"/>
+              <div id="u3988" class="ax_default box_1">
+                <div id="u3988_div" class=""></div>
+                <input id="u3988_input" type="text" value="" class="u3988_input" maxlength="18"/>
               </div>
             </div>
           </div>
@@ -393,112 +393,88 @@
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3986" class="ax_default _段落">
-        <div id="u3986_div" class=""></div>
-        <div id="u3986_text" class="text ">
+      <div id="u3989" class="ax_default _段落">
+        <div id="u3989_div" class=""></div>
+        <div id="u3989_text" class="text ">
           <p><span>长沙市湘派食品有限公司</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3987" class="ax_default label">
-        <div id="u3987_div" class=""></div>
-        <div id="u3987_text" class="text ">
+      <div id="u3990" class="ax_default label">
+        <div id="u3990_div" class=""></div>
+        <div id="u3990_text" class="text ">
           <p><span>受送达人</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3988" class="ax_default label">
-        <div id="u3988_div" class=""></div>
-        <div id="u3988_text" class="text ">
+      <div id="u3991" class="ax_default label">
+        <div id="u3991_div" class=""></div>
+        <div id="u3991_text" class="text ">
           <p><span>送达地址</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3989" class="ax_default label">
-        <div id="u3989_div" class=""></div>
-        <div id="u3989_text" class="text ">
+      <div id="u3992" class="ax_default label">
+        <div id="u3992_div" class=""></div>
+        <div id="u3992_text" class="text ">
           <p><span>收件人</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u3990" class="ax_default box_1">
-        <div id="u3990_div" class=""></div>
-        <div id="u3990_text" class="text " style="display:none; visibility: hidden">
+      <div id="u3993" class="ax_default box_1">
+        <div id="u3993_div" class=""></div>
+        <div id="u3993_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u3991" class="ax_default" data-left="77" data-top="1473" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u3994" class="ax_default" data-left="77" data-top="1473" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u3992" class="ax_default box_1">
-          <div id="u3992_div" class=""></div>
-          <div id="u3992_text" class="text " style="display:none; visibility: hidden">
+        <div id="u3995" class="ax_default box_1">
+          <div id="u3995_div" class=""></div>
+          <div id="u3995_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u3993" class="ax_default box_1">
-          <div id="u3993_div" class=""></div>
-          <div id="u3993_text" class="text ">
+        <div id="u3996" class="ax_default box_1">
+          <div id="u3996_div" class=""></div>
+          <div id="u3996_text" class="text ">
             <p><span>文书下达时间</span></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u3994" class="ax_default box_1">
-          <div id="u3994_div" class=""></div>
-          <input id="u3994_input" type="text" value="" class="u3994_input" maxlength="5"/>
+        <div id="u3997" class="ax_default box_1">
+          <div id="u3997_div" class=""></div>
+          <input id="u3997_input" type="text" value="" class="u3997_input" maxlength="5"/>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u3995" class="ax_default" data-left="230" data-top="1477" data-width="180" data-height="42" layer-opacity="1">
+      <div id="u3998" class="ax_default" data-left="230" data-top="1477" data-width="180" data-height="42" layer-opacity="1">
 
         <!-- 文案_餐厅分类1 (矩形) -->
-        <div id="u3996" class="ax_default shape" data-label="文案_餐厅分类1">
-          <div id="u3996_div" class=""></div>
-          <div id="u3996_text" class="text ">
+        <div id="u3999" class="ax_default shape" data-label="文案_餐厅分类1">
+          <div id="u3999_div" class=""></div>
+          <div id="u3999_text" class="text ">
             <p><span>选择日期</span></p>
           </div>
         </div>
 
         <!-- Unnamed (图片) -->
-        <div id="u3997" class="ax_default image">
-          <img id="u3997_img" class="img " src="images/260109线下取号-立案取号/u488.png"/>
-          <div id="u3997_text" class="text " style="display:none; visibility: hidden">
+        <div id="u4000" class="ax_default image">
+          <img id="u4000_img" class="img " src="images/260109线下取号-立案取号/u488.png"/>
+          <div id="u4000_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
-        </div>
-      </div>
-
-      <!-- Unnamed (矩形) -->
-      <div id="u3998" class="ax_default label">
-        <div id="u3998_div" class=""></div>
-        <div id="u3998_text" class="text ">
-          <p><span>联系电话</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (矩形) -->
-      <div id="u3999" class="ax_default label">
-        <div id="u3999_div" class=""></div>
-        <div id="u3999_text" class="text ">
-          <p><span>邮政编码</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (矩形) -->
-      <div id="u4000" class="ax_default label">
-        <div id="u4000_div" class=""></div>
-        <div id="u4000_text" class="text ">
-          <p><span>签字</span></p>
         </div>
       </div>
 
@@ -506,7 +482,7 @@
       <div id="u4001" class="ax_default label">
         <div id="u4001_div" class=""></div>
         <div id="u4001_text" class="text ">
-          <p><span>文书下达时间</span></p>
+          <p><span>联系电话</span></p>
         </div>
       </div>
 
@@ -514,158 +490,182 @@
       <div id="u4002" class="ax_default label">
         <div id="u4002_div" class=""></div>
         <div id="u4002_text" class="text ">
-          <p><span>备注</span></p>
+          <p><span>邮政编码</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u4003" class="ax_default box_1">
+      <div id="u4003" class="ax_default label">
         <div id="u4003_div" class=""></div>
         <div id="u4003_text" class="text ">
-          <p><span>电子送达</span></p>
+          <p><span>签字</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u4004" class="ax_default box_1">
+      <div id="u4004" class="ax_default label">
         <div id="u4004_div" class=""></div>
         <div id="u4004_text" class="text ">
-          <p><span>拒绝电子送达</span></p>
+          <p><span>文书下达时间</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u4005" class="ax_default sticky_3">
+      <div id="u4005" class="ax_default label">
         <div id="u4005_div" class=""></div>
         <div id="u4005_text" class="text ">
-          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#D9001B;">828补充修改：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">顶部增加按钮：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、电子送达</span></p><ul><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">选择后，文书的「是否接受电子送达」选择“是”</span></li><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">手机号码默认选中，文书显示的就是文书录入的「联系电话」</span></li></ul><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">2、拒绝电子送达</span></p><ul><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">拒绝电子送达，文书的「是否接受电子送达」选择“否”</span></li><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">文书生成只显示录入的内容（红方块的内容）</span></li></ul><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;"><br></span></p>
+          <p><span>备注</span></p>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
       <div id="u4006" class="ax_default box_1">
         <div id="u4006_div" class=""></div>
-        <div id="u4006_text" class="text " style="display:none; visibility: hidden">
+        <div id="u4006_text" class="text ">
+          <p><span>电子送达</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4007" class="ax_default box_1">
+        <div id="u4007_div" class=""></div>
+        <div id="u4007_text" class="text ">
+          <p><span>拒绝电子送达</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4008" class="ax_default sticky_3">
+        <div id="u4008_div" class=""></div>
+        <div id="u4008_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC', sans-serif;font-weight:650;color:#D9001B;">828补充修改：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">顶部增加按钮：</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">1、电子送达</span></p><ul><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">选择后，文书的「是否接受电子送达」选择“是”</span></li><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">手机号码默认选中，文书显示的就是文书录入的「联系电话」</span></li></ul><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">2、拒绝电子送达</span></p><ul><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">拒绝电子送达，文书的「是否接受电子送达」选择“否”</span></li><li style=""><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;">文书生成只显示录入的内容（红方块的内容）</span></li></ul><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4009" class="ax_default box_1">
+        <div id="u4009_div" class=""></div>
+        <div id="u4009_text" class="text " style="display:none; visibility: hidden">
           <p></p>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u4007" class="ax_default" data-left="77" data-top="786" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u4010" class="ax_default" data-left="77" data-top="786" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u4008" class="ax_default box_1">
-          <div id="u4008_div" class=""></div>
-          <div id="u4008_text" class="text " style="display:none; visibility: hidden">
+        <div id="u4011" class="ax_default box_1">
+          <div id="u4011_div" class=""></div>
+          <div id="u4011_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u4009" class="ax_default box_1">
-          <div id="u4009_div" class=""></div>
-          <input id="u4009_input" type="text" value="请输入" class="u4009_input" maxlength="18"/>
+        <div id="u4012" class="ax_default box_1">
+          <div id="u4012_div" class=""></div>
+          <input id="u4012_input" type="text" value="请输入" class="u4012_input" maxlength="18"/>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u4010" class="ax_default box_1">
-          <div id="u4010_div" class=""></div>
-          <div id="u4010_text" class="text ">
+        <div id="u4013" class="ax_default box_1">
+          <div id="u4013_div" class=""></div>
+          <div id="u4013_text" class="text ">
             <p><span>电子邮件地址</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u4011" class="ax_default box_1">
-        <div id="u4011_div" class=""></div>
-        <div id="u4011_text" class="text ">
+      <div id="u4014" class="ax_default box_1">
+        <div id="u4014_div" class=""></div>
+        <div id="u4014_text" class="text ">
           <p><span>送达方式（至少录入一个）</span></p>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u4012" class="ax_default" data-left="77" data-top="686" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u4015" class="ax_default" data-left="77" data-top="686" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u4013" class="ax_default box_1">
-          <div id="u4013_div" class=""></div>
-          <div id="u4013_text" class="text " style="display:none; visibility: hidden">
+        <div id="u4016" class="ax_default box_1">
+          <div id="u4016_div" class=""></div>
+          <div id="u4016_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u4014" class="ax_default box_1">
-          <div id="u4014_div" class=""></div>
-          <input id="u4014_input" type="text" value="请输入" class="u4014_input" maxlength="18"/>
+        <div id="u4017" class="ax_default box_1">
+          <div id="u4017_div" class=""></div>
+          <input id="u4017_input" type="text" value="请输入" class="u4017_input" maxlength="18"/>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u4015" class="ax_default box_1">
-          <div id="u4015_div" class=""></div>
-          <div id="u4015_text" class="text ">
+        <div id="u4018" class="ax_default box_1">
+          <div id="u4018_div" class=""></div>
+          <div id="u4018_text" class="text ">
             <p><span>手机号码</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u4016" class="ax_default" data-left="77" data-top="736" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u4019" class="ax_default" data-left="77" data-top="736" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u4017" class="ax_default box_1">
-          <div id="u4017_div" class=""></div>
-          <div id="u4017_text" class="text " style="display:none; visibility: hidden">
+        <div id="u4020" class="ax_default box_1">
+          <div id="u4020_div" class=""></div>
+          <div id="u4020_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u4018" class="ax_default box_1">
-          <div id="u4018_div" class=""></div>
-          <input id="u4018_input" type="text" value="请输入" class="u4018_input" maxlength="18"/>
+        <div id="u4021" class="ax_default box_1">
+          <div id="u4021_div" class=""></div>
+          <input id="u4021_input" type="text" value="请输入" class="u4021_input" maxlength="18"/>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u4019" class="ax_default box_1">
-          <div id="u4019_div" class=""></div>
-          <div id="u4019_text" class="text ">
+        <div id="u4022" class="ax_default box_1">
+          <div id="u4022_div" class=""></div>
+          <div id="u4022_text" class="text ">
             <p><span>传真号码</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (组合) -->
-      <div id="u4020" class="ax_default" data-left="77" data-top="836" data-width="335" data-height="50" layer-opacity="1">
+      <div id="u4023" class="ax_default" data-left="77" data-top="836" data-width="335" data-height="50" layer-opacity="1">
 
         <!-- Unnamed (矩形) -->
-        <div id="u4021" class="ax_default box_1">
-          <div id="u4021_div" class=""></div>
-          <div id="u4021_text" class="text " style="display:none; visibility: hidden">
+        <div id="u4024" class="ax_default box_1">
+          <div id="u4024_div" class=""></div>
+          <div id="u4024_text" class="text " style="display:none; visibility: hidden">
             <p></p>
           </div>
         </div>
 
         <!-- Unnamed (文本框) -->
-        <div id="u4022" class="ax_default box_1">
-          <div id="u4022_div" class=""></div>
-          <input id="u4022_input" type="text" value="请输入" class="u4022_input" maxlength="18"/>
+        <div id="u4025" class="ax_default box_1">
+          <div id="u4025_div" class=""></div>
+          <input id="u4025_input" type="text" value="请输入" class="u4025_input" maxlength="18"/>
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u4023" class="ax_default box_1">
-          <div id="u4023_div" class=""></div>
-          <div id="u4023_text" class="text ">
+        <div id="u4026" class="ax_default box_1">
+          <div id="u4026_div" class=""></div>
+          <div id="u4026_text" class="text ">
             <p><span>即时通讯账号</span></p>
           </div>
         </div>
       </div>
 
       <!-- Unnamed (矩形) -->
-      <div id="u4024" class="ax_default sticky_3">
-        <div id="u4024_div" class=""></div>
-        <div id="u4024_text" class="text ">
+      <div id="u4027" class="ax_default sticky_3">
+        <div id="u4027_div" class=""></div>
+        <div id="u4027_text" class="text ">
           <p><span>5、送达方式</span></p><ul><li style=""><span>4个输入框，至少录入一个</span></li><li style=""><span>电子邮件地址：字数限制50字</span></li><li style=""><span>手机号码：字数限制11</span></li><li style=""><span>传真号码：字数限制8</span></li><li style=""><span>即时通讯账号：字数限制50字</span></li></ul>
         </div>
       </div>
