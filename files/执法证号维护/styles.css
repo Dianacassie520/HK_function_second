@@ -16,7 +16,7 @@
   position:absolute;
   z-index:0;
 }
-#u3091_img {
+#u3009_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -24,7 +24,7 @@
   width:375px;
   height:815px;
 }
-#u3091 {
+#u3009 {
   border-width:0px;
   position:absolute;
   left:57px;
@@ -33,20 +33,20 @@
   height:815px;
   display:flex;
 }
-#u3091 .text {
+#u3009 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3091_text {
+#u3009_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u3092 {
+#u3010 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -54,7 +54,7 @@
   width:0px;
   height:0px;
 }
-#u3093_div {
+#u3011_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -71,7 +71,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'FontAwesome', sans-serif;
+  font-family:'FontAwesome Regular', 'FontAwesome', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:16px;
@@ -79,7 +79,7 @@
   text-align:right;
   line-height:20px;
 }
-#u3093 {
+#u3011 {
   border-width:0px;
   position:absolute;
   left:89px;
@@ -87,7 +87,7 @@
   width:335px;
   height:50px;
   display:flex;
-  font-family:'FontAwesome', sans-serif;
+  font-family:'FontAwesome Regular', 'FontAwesome', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:16px;
@@ -95,20 +95,20 @@
   text-align:right;
   line-height:20px;
 }
-#u3093 .text {
+#u3011 .text {
   position:absolute;
   align-self:center;
   padding:0px 20px 0px 20px;
   box-sizing:border-box;
   width:100%;
 }
-#u3093_text {
+#u3011_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u3094_div {
+#u3012_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -135,7 +135,7 @@
   text-align:left;
   line-height:20px;
 }
-#u3094 {
+#u3012 {
   border-width:0px;
   position:absolute;
   left:107px;
@@ -150,19 +150,19 @@
   text-align:left;
   line-height:20px;
 }
-#u3094 .text {
+#u3012 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u3094_text {
+#u3012_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
 }
-#u3095_input {
+#u3013_input {
   position:absolute;
   left:0px;
   top:0px;
@@ -181,7 +181,7 @@
   background-color:transparent;
   border-color:transparent;
 }
-#u3095_input.disabled {
+#u3013_input.disabled {
   position:absolute;
   left:0px;
   top:0px;
@@ -200,7 +200,7 @@
   background-color:transparent;
   border-color:transparent;
 }
-#u3095_div {
+#u3013_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -216,7 +216,7 @@
   box-shadow:none;
   text-align:right;
 }
-#u3095 {
+#u3013 {
   border-width:0px;
   position:absolute;
   left:183px;
@@ -226,14 +226,14 @@
   display:flex;
   text-align:right;
 }
-#u3095 .text {
+#u3013 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3095_div.disabled {
+#u3013_div.disabled {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -249,9 +249,9 @@
   box-shadow:none;
   text-align:right;
 }
-#u3095.disabled {
+#u3013.disabled {
 }
-#u3096_div {
+#u3014_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -269,7 +269,7 @@
   font-weight:400;
   font-style:normal;
 }
-#u3096 {
+#u3014 {
   border-width:0px;
   position:absolute;
   left:454px;
@@ -281,19 +281,19 @@
   font-weight:400;
   font-style:normal;
 }
-#u3096 .text {
+#u3014 .text {
   position:absolute;
   align-self:flex-start;
   padding:10px 10px 10px 10px;
   box-sizing:border-box;
   width:100%;
 }
-#u3096_text {
+#u3014_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
 }
-#u3097_div {
+#u3015_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -312,7 +312,7 @@
   font-style:normal;
   color:#FFFFFF;
 }
-#u3097 {
+#u3015 {
   border-width:0px;
   position:absolute;
   left:174px;
@@ -325,14 +325,14 @@
   font-style:normal;
   color:#FFFFFF;
 }
-#u3097 .text {
+#u3015 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u3097_div.mouseDown {
+#u3015_div.mouseDown {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -351,10 +351,10 @@
   font-style:normal;
   color:#FFFFFF;
 }
-#u3097.mouseDown {
+#u3015.mouseDown {
   opacity:0.9;
 }
-#u3097_text {
+#u3015_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
